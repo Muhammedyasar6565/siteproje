@@ -1,0 +1,224 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "ust ust"
+    "intro intro"
+    "sol sag"
+    "alt alt";
+    grid-template-rows:  120px 470px 1fr  200px;
+    grid-template-columns: 1fr 3fr;
+    min-height: 100vh;
+    font-size: 12px;
+    font-family: sans-serif;
+   
+   
+    }
+.ust{
+        grid-area: ust;
+      background: #A42929;
+      border:10px solid #000; 
+     
+
+      
+    }
+    .secildi{
+      margin-right: 20px;
+     
+    }
+
+
+   .sol{
+       grid-area:sol;
+      border:10px solid #000; 
+   }
+   .sag{
+       grid-area:sag;
+      border:10px solid #000;
+   }
+   .alt{
+       grid-area:alt;
+      border:10px solid #000;
+   }
+   .intro{
+      grid-area: intro;
+      border:10px solid #000;
+        }
+ 
+    .sol .kutu{
+      width: 300px;
+      height: 200px;
+      margin:10px;
+      border:5px solid purple;
+      box-sizing: padding-box;
+     }
+    .footer{
+      width:400px;
+      grid-area: footer;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    
+       }
+    ust {
+        margin: 27px auto 0;
+      
+        position: relative;
+        width: 590px;
+        height: 50px;
+        background-color: #34495e;
+        
+        font-size: 0;
+      }
+    ust a {
+        line-height: 50px;
+        height: 100%;
+        font-size: 15px;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+       
+    
+       
+      }
+      .intro{
+        background:#A42989;
+      }
+      .intro img{
+        height: 0%;
+        width: 3000px;
+        margin-left: 80px;
+
+        }
+        a:nth-child(1) {
+          width: 150px;
+        }
+        a:nth-child(2) {
+          width: 150px;
+        }
+        a:nth-child(3) {
+          width: 150px;
+        }
+        
+        a:nth-child(4) {
+          width: 150px;
+        }
+        
+        a:nth-child(5) {
+          width: 150px;
+        } 
+        #secildi{
+          width: 300px;
+        }
+      .intro img{
+        height: auto;
+        width: 800px;
+  
+        }
+      .sol{
+        background: #A42989;
+      }
+      .sol img{
+        height: 200px;
+        width: 300px;
+      }
+      .aciklama{
+        font-size: 48px;
+        line-height: 1.5;
+        padding-bottom: 4em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20%;
+
+      }
+      
+       
+       
+          
+  
+  
+          
+  .alt{
+          background: #A42989;
+          display: flex;
+          list-style-type: none;
+          justify-content: center;
+          align-items: center;
+          gap: 1vw;
+        }
+  .alt img{
+          width: 150px;
+          height: 150px;
+         
+       }
+      
+        
+        
+       
+       
+       
+        
+        
+        
+        
+      
+     
+     
+      
+    
+
+    
+     
+    
+
+  
+
+
+    
+    
+      
+       
+        
+
+       
+   
+          
+        
+      
+     
+      
+      
+
+      
+    
+  
+  
+     
+      
+       
+     
+
+
+
+
+
+    
+
+    
+
